@@ -1,0 +1,1017 @@
+spawn mkdir -p query
+spawn mkdir -p time
+spawn sqlite3
+SQLite version 3.22.0 2018-01-22 18:45:57
+Enter ".help" for usage hints.
+Connected to a [1mtransient in-memory database[0m.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .timer ON
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000271
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000195
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000192
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000201
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000181
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000184
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000159
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000161
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000276
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000468
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000416
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000382 sys 0.000000
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000384 sys 0.000000
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000308 sys 0.000000
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000450 sys 0.000000
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000437 sys 0.000000
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000541 sys 0.000000
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000364 sys 0.000000
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000439 sys 0.000000
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000192 sys 0.000256
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000509 sys 0.000000
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000205 sys 0.000230
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000235 sys 0.000264
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000208 sys 0.000234
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000458 sys 0.000000
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000446 sys 0.000000
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.002 user 0.000242 sys 0.000217
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000425
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000178 sys 0.000178
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000435
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000374 sys 0.000094
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000346 sys 0.000000
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000346 sys 0.000000
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000446 sys 0.000000
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000234 sys 0.000201
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000445 sys 0.000000
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000239 sys 0.000191
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000249 sys 0.000200
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000424 sys 0.000000
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000000 sys 0.000524
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000448
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000234 sys 0.000207
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000226 sys 0.000200
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000226 sys 0.000200
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000175 sys 0.000154
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000234 sys 0.000206
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000195 sys 0.000172
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000318
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000187 sys 0.000175
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000000 sys 0.000310
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000235 sys 0.000223
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000254 sys 0.000241
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000325 sys 0.000309
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000348 sys 0.000330
+sqlite> .output ./query/db1query_1.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000130 sys 0.000534
+sqlite> .output ./query/db2query_1.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.002 user 0.000492 sys 0.000161
+sqlite> .output ./query/db3query_1.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000545 sys 0.000203
+sqlite> .output ./query/db4query_1.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000584 sys 0.000154
+sqlite> .output ./query/db5query_1.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000462 sys 0.000000
+sqlite> .output ./query/db6query_1.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000451 sys 0.000000
+sqlite> .output ./query/db7query_1.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.001 user 0.000433 sys 0.000000
+sqlite> .output ./query/db8query_1.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000242 sys 0.000203
+sqlite> .output ./query/db9query_1.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM A WHERE A1 <= 50;
+Run Time: real 0.000 user 0.000179 sys 0.000149
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000411 sys 0.000345
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000000 sys 0.001200
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.002 user 0.000000 sys 0.001711
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.008 user 0.003926 sys 0.003882
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.015 user 0.014988 sys 0.000000
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.052 user 0.049087 sys 0.002514
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.047 user 0.041667 sys 0.005249
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.277 user 0.257194 sys 0.020410
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.562 user 3.351225 sys 0.194032
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.000 user 0.000361 sys 0.000029
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000532 sys 0.000043
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000589 sys 0.000000
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.004 user 0.003439 sys 0.000000
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.008 user 0.004067 sys 0.003868
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.034 user 0.033911 sys 0.000000
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.036 user 0.031489 sys 0.003894
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.357 user 0.331519 sys 0.025698
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.276 user 3.109637 sys 0.164603
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000427 sys 0.000031
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.000 user 0.000467 sys 0.000000
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000840 sys 0.000000
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.012 user 0.011197 sys 0.000000
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.022 user 0.019795 sys 0.001347
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.104 user 0.065127 sys 0.004655
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.042 user 0.041844 sys 0.000148
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.407 user 0.373227 sys 0.029273
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.337 user 3.155764 sys 0.179879
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.002 user 0.001466 sys 0.000102
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.002 user 0.001897 sys 0.000000
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.003 user 0.001388 sys 0.001243
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.011 user 0.010801 sys 0.000000
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.019 user 0.014623 sys 0.003894
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.075 user 0.069838 sys 0.005006
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.034 user 0.034104 sys 0.000155
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.371 user 0.354191 sys 0.002147
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.575 user 3.366074 sys 0.203932
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.002 user 0.001637 sys 0.000111
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.004 user 0.002527 sys 0.000000
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.003 user 0.003069 sys 0.000039
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.006 user 0.004714 sys 0.001622
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.009 user 0.008671 sys 0.000000
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.032 user 0.028250 sys 0.003686
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.046 user 0.041918 sys 0.003854
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.293 user 0.271780 sys 0.019847
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.778 user 3.555815 sys 0.164387
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000000 sys 0.000889
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000660 sys 0.000043
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.000792 sys 0.000052
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.003 user 0.003232 sys 0.000000
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.005 user 0.005423 sys 0.000094
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.031 user 0.031390 sys 0.000000
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.058 user 0.052090 sys 0.006020
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.294 user 0.270912 sys 0.021971
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.560 user 3.310219 sys 0.183411
+sqlite> .output ./query/db1query_2.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.002 user 0.002197 sys 0.000146
+sqlite> .output ./query/db2query_2.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.001 user 0.001374 sys 0.000000
+sqlite> .output ./query/db3query_2.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.002 user 0.002362 sys 0.000000
+sqlite> .output ./query/db4query_2.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.004 user 0.001652 sys 0.002164
+sqlite> .output ./query/db5query_2.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.005 user 0.005018 sys 0.000068
+sqlite> .output ./query/db6query_2.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.058 user 0.055577 sys 0.001722
+sqlite> .output ./query/db7query_2.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.045 user 0.044763 sys 0.000000
+sqlite> .output ./query/db8query_2.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 0.343 user 0.309322 sys 0.001480
+sqlite> .output ./query/db9query_2.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT * FROM B ORDER BY B3;
+Run Time: real 3.257 user 3.073333 sys 0.178259
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.002 user 0.001008 sys 0.000067
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.001221 sys 0.000055
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.001429 sys 0.000095
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.006 user 0.004920 sys 0.000338
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.004 user 0.003291 sys 0.000934
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.012 user 0.012378 sys 0.000026
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.012 user 0.011737 sys 0.000000
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.069 user 0.069374 sys 0.000000
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.779 user 0.727002 sys 0.051900
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000282 sys 0.000018
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000296 sys 0.000020
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000373 sys 0.000025
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000000 sys 0.001020
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.002 user 0.001057 sys 0.000683
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.006 user 0.005482 sys 0.000100
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.009 user 0.006383 sys 0.002741
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.074 user 0.069948 sys 0.003864
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.826 user 0.810264 sys 0.011955
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000229 sys 0.000000
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000301 sys 0.000000
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000339 sys 0.000000
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.001011 sys 0.000000
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.001582 sys 0.000067
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.006 user 0.005877 sys 0.000000
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.009 user 0.009743 sys 0.000000
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.070 user 0.066278 sys 0.003812
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.756 user 0.688213 sys 0.067976
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000257 sys 0.000017
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000000 sys 0.000712
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000681 sys 0.000045
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.002 user 0.001116 sys 0.000074
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.002 user 0.001470 sys 0.000098
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.006 user 0.006000 sys 0.000000
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.009 user 0.008933 sys 0.000063
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.082 user 0.071015 sys 0.010828
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.961 user 0.918702 sys 0.040048
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000199 sys 0.000000
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000298 sys 0.000000
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000326 sys 0.000000
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000000 sys 0.001046
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.001141 sys 0.000370
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.006 user 0.005993 sys 0.000000
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.009 user 0.008712 sys 0.000000
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.071 user 0.062625 sys 0.008166
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.835 user 0.771864 sys 0.062846
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000199 sys 0.000000
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000000 sys 0.000328
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000000 sys 0.000406
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000000 sys 0.000956
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000000 sys 0.001491
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.006 user 0.001801 sys 0.004240
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.009 user 0.009349 sys 0.000000
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.068 user 0.067222 sys 0.000000
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.769 user 0.729325 sys 0.040034
+sqlite> .output ./query/db1query_3.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000200 sys 0.000000
+sqlite> .output ./query/db2query_3.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.000 user 0.000334 sys 0.000000
+sqlite> .output ./query/db3query_3.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000260 sys 0.000002
+sqlite> .output ./query/db4query_3.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.001 user 0.000888 sys 0.000059
+sqlite> .output ./query/db5query_3.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.002 user 0.001774 sys 0.000000
+sqlite> .output ./query/db6query_3.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.005 user 0.001686 sys 0.003753
+sqlite> .output ./query/db7query_3.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.009 user 0.008432 sys 0.000030
+sqlite> .output ./query/db8query_3.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.068 user 0.067616 sys 0.000000
+sqlite> .output ./query/db9query_3.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT AVG(sum) FROM (SELECT COUNT(B1) AS sum FROM B GROUP BY B2);
+Run Time: real 0.781 user 0.718322 sys 0.062560
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000427 sys 0.000000
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.000 user 0.000449 sys 0.000000
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000544 sys 0.000015
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.003 user 0.000000 sys 0.002417
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.004 user 0.004382 sys 0.000000
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.015 user 0.014841 sys 0.000000
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.022 user 0.021676 sys 0.000000
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.190 user 0.186000 sys 0.003858
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 1.835 user 1.751001 sys 0.079996
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.000 user 0.000281 sys 0.000000
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.000 user 0.000476 sys 0.000000
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000000 sys 0.000668
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.003 user 0.000000 sys 0.003484
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.004 user 0.003646 sys 0.000361
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.015 user 0.015367 sys 0.000000
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.022 user 0.014918 sys 0.006644
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.163 user 0.158490 sys 0.003913
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 1.709 user 1.610632 sys 0.095930
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.001301 sys 0.000087
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.001692 sys 0.000000
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000000 sys 0.000891
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.002387 sys 0.000159
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.006 user 0.005901 sys 0.000000
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.015 user 0.014870 sys 0.000000
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.023 user 0.022240 sys 0.000091
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.259 user 0.236423 sys 0.021476
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 2.018 user 1.858544 sys 0.143605
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.002307 sys 0.000000
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000000 sys 0.000949
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000960 sys 0.000000
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.003 user 0.003085 sys 0.000000
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.006 user 0.005139 sys 0.000000
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.018 user 0.018675 sys 0.000000
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.023 user 0.022453 sys 0.000000
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.164 user 0.155237 sys 0.007952
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 2.455 user 2.344203 sys 0.095019
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.001528 sys 0.000105
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.000 user 0.000786 sys 0.000000
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.001292 sys 0.000000
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.003 user 0.002658 sys 0.000000
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.004 user 0.001484 sys 0.002771
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.029 user 0.029096 sys 0.000000
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.023 user 0.022566 sys 0.000000
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.154 user 0.145832 sys 0.008082
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 1.626 user 1.513445 sys 0.112086
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.000000 sys 0.001420
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.001 user 0.000000 sys 0.001550
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.000000 sys 0.001512
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.011 user 0.001927 sys 0.007063
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.017 user 0.011824 sys 0.004200
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.026 user 0.017936 sys 0.008122
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.023 user 0.020650 sys 0.002405
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.266 user 0.249367 sys 0.016099
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 1.889 user 1.780307 sys 0.108058
+sqlite> .output ./query/db1query_4.txt
+sqlite> .open ./dbs/db1
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.000000 sys 0.001491
+sqlite> .output ./query/db2query_4.txt
+sqlite> .open ./dbs/db2
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.002 user 0.000000 sys 0.001827
+sqlite> .output ./query/db3query_4.txt
+sqlite> .open ./dbs/db3
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.000 user 0.000000 sys 0.000938
+sqlite> .output ./query/db4query_4.txt
+sqlite> .open ./dbs/db4
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.003 user 0.003071 sys 0.000174
+sqlite> .output ./query/db5query_4.txt
+sqlite> .open ./dbs/db5
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.006 user 0.006353 sys 0.000169
+sqlite> .output ./query/db6query_4.txt
+sqlite> .open ./dbs/db6
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.017 user 0.016304 sys 0.000025
+sqlite> .output ./query/db7query_4.txt
+sqlite> .open ./dbs/db7
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.023 user 0.022894 sys 0.000000
+sqlite> .output ./query/db8query_4.txt
+sqlite> .open ./dbs/db8
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 0.267 user 0.253794 sys 0.011855
+sqlite> .output ./query/db9query_4.txt
+sqlite> .open ./dbs/db9
+sqlite> SELECT B1,B2,B3,A2 FROM B JOIN A ON A.A1 = B.B2;
+Run Time: real 1.782 user 1.697435 sys 0.084180
+sqlite> .quit
